@@ -1,0 +1,174 @@
+INFO:root:2023-11-20 15:16:33 - User asked: Hey
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:root:2023-11-20 15:16:58 - User asked: I missed my lab what can i do?
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:root:User Information - Username: Rushil, Bits ID: 2020A3PS0443G
+INFO:root:2023-11-20 15:25:19 - Rushil (Bits ID: 2020A3PS0443G) asked: i want to change my lab slot
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:root:User Information - Username: Rushil000, Bits ID: shdavbhbk
+INFO:root:2023-11-20 15:44:21 - Rushil000 (Bits ID: shdavbhbk) asked: hey
+INFO:root:User Information - Username: rusuba, Bits ID: cubwaibc
+INFO:root:2023-11-20 15:46:48 - rusuba (Bits ID: cubwaibc) asked: hey
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+WARNING:langchain.chat_models.openai:WARNING! username is not default parameter.
+                    username was transferred to model_kwargs.
+                    Please confirm that username is what you intended.
+WARNING:langchain.chat_models.openai:WARNING! bits_id is not default parameter.
+                    bits_id was transferred to model_kwargs.
+                    Please confirm that bits_id is what you intended.
+INFO:openai:error_code=None error_message='Unrecognized request arguments supplied: bits_id, username' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:root:User Information - Username: avsav, Bits ID: jhvacjk
+INFO:root:2023-11-20 15:47:54 - avsav (Bits ID: jhvacjk) asked: hey
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._embed_with_retry in 4.0 seconds as it raised ServiceUnavailableError: The server is overloaded or not ready yet..
+INFO:root:User Information - Username: back, Bits ID: isnisa
+INFO:root:2023-11-20 15:58:02 - back (Bits ID: isnisa) asked: hi
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:root:User Information - Username: Rushil, Bits ID: 023uuis
+INFO:root:2023-11-22 11:02:59 - Rushil (Bits ID: 023uuis) asked: Hey
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:root:User Information - Username: vsda, Bits ID: sdva
+INFO:root:2023-11-22 18:09:30 - vsda (Bits ID: sdva) asked: hi
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:root:User Information - Username: nkan, Bits ID: jnca
+INFO:root:2023-11-22 18:10:16 - nkan (Bits ID: jnca) asked: hi
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._embed_with_retry in 4.0 seconds as it raised ServiceUnavailableError: The server is overloaded or not ready yet..
+INFO:root:User Information - Username: Unknown User, Bits ID: Unknown Bits ID
+INFO:root:2023-11-22 18:28:26 - Unknown User (Bits ID: Unknown Bits ID) asked: hi
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:root:User Information - Username: mike, Bits ID: 68824
+INFO:root:2023-11-22 18:31:33 - mike (Bits ID: 68824) asked: hello
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-11-22 18:52:17 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-22 18:52:17 - [33mPress CTRL+C to quit[0m
+2023-11-22 18:52:17 -  * Restarting with stat
+2023-11-22 18:52:17 -  * Debugger is active!
+2023-11-22 18:52:17 -  * Debugger PIN: 121-708-075
+2023-11-22 18:52:42 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-22 18:52:42 - [33mPress CTRL+C to quit[0m
+2023-11-22 18:52:42 -  * Restarting with stat
+2023-11-22 18:52:43 -  * Debugger is active!
+2023-11-22 18:52:43 -  * Debugger PIN: 121-708-075
+2023-11-22 18:53:32 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-22 18:53:32 - [33mPress CTRL+C to quit[0m
+2023-11-22 18:53:32 -  * Restarting with stat
+2023-11-22 18:53:32 -  * Debugger is active!
+2023-11-22 18:53:32 -  * Debugger PIN: 121-708-075
+2023-11-22 18:58:02 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-22 18:58:02 - [33mPress CTRL+C to quit[0m
+2023-11-22 18:58:02 -  * Restarting with stat
+2023-11-22 18:58:02 -  * Debugger is active!
+2023-11-22 18:58:02 -  * Debugger PIN: 121-708-075
+2023-11-22 18:59:57 -  * Detected change in 'c:\\Users\\rushi\\Documents\\Chatbot\\Project\\app.py', reloading
+2023-11-22 18:59:57 -  * Restarting with stat
+2023-11-22 18:59:58 -  * Debugger is active!
+2023-11-22 18:59:58 -  * Debugger PIN: 121-708-075
+2023-11-22 19:00:02 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-11-22 19:00:02 - [33mPress CTRL+C to quit[0m
+2023-11-22 19:00:02 -  * Restarting with stat
+2023-11-22 19:00:02 -  * Debugger is active!
+2023-11-22 19:00:02 -  * Debugger PIN: 121-708-075
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-708-075
+INFO:root:User Information - Username: mike1, Bits ID: 5555
+INFO:root:User Information - Username: mike2, Bits ID: 4444
+INFO:root:2023-11-22 19:49:06 - mike2 (Bits ID: 4444) asked: hello
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:root:User Information - Username: DefaultUsername, Bits ID: DefaultBitsID
+INFO:root:2023-11-22 19:49:44 - DefaultUsername (Bits ID: DefaultBitsID) asked: hi
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-11-22 19:54:23 - User Information - Username: DefaultUsername, Bits ID: DefaultBitsID
+2023-11-22 19:54:23 - 2023-11-22 19:54:23 - DefaultUsername (Bits ID: DefaultBitsID) asked: hello
+2023-11-22 19:54:23 - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-11-22 20:09:22 - User Information - Username: mike3, Bits ID: 7777
+2023-11-22 20:09:26 - 2023-11-22 20:09:26 - mike3 (Bits ID: 7777) asked: hi
+2023-11-22 20:09:26 - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-11-22 22:45:51 - User Information - Username: mike4, Bits ID: 5555
+2023-11-22 22:45:54 - 2023-11-22 22:45:54 - mike4 (Bits ID: 5555) asked: hi
+2023-11-22 22:45:54 - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+ERROR:fastapi:Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+INFO:root:User Information - Username: Rushil, Bits ID: 96203940
+INFO:root:2023-11-24 11:32:46 - Rushil (Bits ID: 96203940) asked: hi
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:root:User Information - Username: angddhj, Bits ID: f5675dvv
+INFO:root:2023-11-24 12:18:43 - angddhj (Bits ID: f5675dvv) asked: hi
+INFO:mysql.connector:package: mysql.connector.plugins
+INFO:mysql.connector:plugin_name: caching_sha2_password
+INFO:mysql.connector:AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:root:2023-11-24 12:19:31 - angddhj (Bits ID: f5675dvv) asked: hi
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:root:2023-11-24 12:19:37 - angddhj (Bits ID: f5675dvv) asked: ho
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for text-embedding-ada-002 in organization org-3Qmsy9PEO446X4FUg8tmvnSe on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._embed_with_retry in 4.0 seconds as it raised RateLimitError: Rate limit reached for text-embedding-ada-002 in organization org-3Qmsy9PEO446X4FUg8tmvnSe on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing..
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for text-embedding-ada-002 in organization org-3Qmsy9PEO446X4FUg8tmvnSe on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._embed_with_retry in 4.0 seconds as it raised RateLimitError: Rate limit reached for text-embedding-ada-002 in organization org-3Qmsy9PEO446X4FUg8tmvnSe on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing..
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for text-embedding-ada-002 in organization org-3Qmsy9PEO446X4FUg8tmvnSe on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._embed_with_retry in 4.0 seconds as it raised RateLimitError: Rate limit reached for text-embedding-ada-002 in organization org-3Qmsy9PEO446X4FUg8tmvnSe on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing..
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for text-embedding-ada-002 in organization org-3Qmsy9PEO446X4FUg8tmvnSe on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._embed_with_retry in 4.0 seconds as it raised RateLimitError: Rate limit reached for text-embedding-ada-002 in organization org-3Qmsy9PEO446X4FUg8tmvnSe on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing..
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for text-embedding-ada-002 in organization org-3Qmsy9PEO446X4FUg8tmvnSe on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._embed_with_retry in 8.0 seconds as it raised RateLimitError: Rate limit reached for text-embedding-ada-002 in organization org-3Qmsy9PEO446X4FUg8tmvnSe on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing..
+INFO:root:2023-11-24 12:20:18 - angddhj (Bits ID: f5675dvv) asked: & "C:/Program Files/Python311/python.exe" c:/Users/rushi/Documents/Chatbot/Project/bitsgpt_db.py
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for text-embedding-ada-002 in organization org-3Qmsy9PEO446X4FUg8tmvnSe on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._embed_with_retry in 4.0 seconds as it raised RateLimitError: Rate limit reached for text-embedding-ada-002 in organization org-3Qmsy9PEO446X4FUg8tmvnSe on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing..
+INFO:root:User Information - Username: hfhf4356, Bits ID: hffxdxfd3
+INFO:root:2023-11-24 12:20:39 - hfhf4356 (Bits ID: hffxdxfd3) asked: hi
+INFO:mysql.connector:package: mysql.connector.plugins
+INFO:mysql.connector:plugin_name: caching_sha2_password
+INFO:mysql.connector:AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:openai:error_code=rate_limit_exceeded error_message='Rate limit reached for text-embedding-ada-002 in organization org-3Qmsy9PEO446X4FUg8tmvnSe on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing.' error_param=None error_type=requests message='OpenAI API error received' stream_error=False
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._embed_with_retry in 4.0 seconds as it raised RateLimitError: Rate limit reached for text-embedding-ada-002 in organization org-3Qmsy9PEO446X4FUg8tmvnSe on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s. Visit https://platform.openai.com/account/rate-limits to learn more. You can increase your rate limit by adding a payment method to your account at https://platform.openai.com/account/billing..
+INFO:root:User Information - Username: mike, Bits ID: 888
+INFO:root:2023-11-24 12:53:26 - mike (Bits ID: 888) asked: hi
+INFO:mysql.connector:package: mysql.connector.plugins
+INFO:mysql.connector:plugin_name: caching_sha2_password
+INFO:mysql.connector:AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+INFO:root:User Information - Username: mike, Bits ID: 888
+INFO:root:2023-11-24 13:07:33 - mike (Bits ID: 888) asked: hi
+INFO:mysql.connector:package: mysql.connector.plugins
+INFO:mysql.connector:plugin_name: caching_sha2_password
+INFO:mysql.connector:AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+INFO:chromadb.telemetry.posthog:Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+INFO:root:User Information - Username: rg, Bits ID: 889
+INFO:root:2023-11-29 22:32:21 - rg (Bits ID: 889) asked: hi
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:User Information - Username: 777, Bits ID: 888
+INFO:root:2023-12-20 23:24:10 - 777 (Bits ID: 888) asked: hi
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

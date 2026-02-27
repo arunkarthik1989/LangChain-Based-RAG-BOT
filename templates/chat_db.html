@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BITSGPT</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container-fluid h-100">
+        <div class="row justify-content-center h-100">
+            <div class="col-md-8 col-xl-6 chat">
+                <div class="card">
+                    <div class="card-header msg_head">
+                        <div class="d-flex bd-highlight">
+                            <div class="img_cont">
+                                <img src="https://i.ibb.co/fSNP7Rz/icons8-chatgpt-512.png"
+                                    class="rounded-circle user_img">
+                                <span class="online_icon"></span>
+                            </div>
+                            <div class="user_info">
+                                <span id="username">BITSGPT</span>
+                                <p>Ask me anything!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="messageFormeight" class="card-body msg_card_body">
+                    </div>
+                    <div class="card-footer">
+                        <form id="messageArea" class="input-group">
+                            <input type="text" id="text" name="msg" placeholder="Type your message..."
+                                autocomplete="off" class="form-control type_msg" required />
+                            <div class="input-group-append">
+                                <button type="submit" id="send" class="input-group-text send_btn"><i
+                                        class="fas fa-location-arrow"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Update your HTML form to include an ID for easier access in JavaScript -->
+<form id="messageArea" class="input-group">
+    <input type="text" id="text" name="msg" placeholder="Type your message..."
+           autocomplete="off" class="form-control type_msg" required />
+    <div class="input-group-append">
+        <button type="submit" id="send" class="input-group-text send_btn"><i class="fas fa-location-arrow"></i></button>
+    </div>
+</form>
+
+<script>
+    $(document).ready(function () {
+        // Function to set user information
+        function setUserInformation() {
+            var username = prompt("Enter your username:");
+            var bits_id = prompt("Enter your Bits ID:");
+
+            $.ajax({
+                type: "POST",
+                url: "/set_user_info",
+                contentType: "application/json",
+                data: JSON.stringify({
+                    username: username,
+                    bits_id: bits_id
+                }),
+                success: function (response) {
+                    console.log('User information set successfully');
+                },
+                error: function (error) {
+                    console.error('Error setting user information', error);
+                }
+            });
+        }
+
+        // Initialize user information
+        setUserInformation();
+
+        // Function to send messages to the server and receive responses
+        $("#messageArea").on("submit", function (event) {
+            event.preventDefault();
+
+            var userMessage = $("#text").val();
+
+            $.ajax({
+                type: "POST",
+                url: "/get",
+                contentType: "application/json",
+                data: JSON.stringify({
+                    msg: userMessage
+                }),
+                success: function (response) {
+                    var botResponse = response.bot_response;
+                    // Display the bot response in the chat area
+                    $("#messageFormeight").append("<div class='d-flex justify-content-start mb-4'><div class='img_cont_msg'><img src='https://i.ibb.co/fSNP7Rz/icons8-chatgpt-512.png' class='rounded-circle user_img_msg'></div><div class='msg_cotainer'>" + botResponse + "<span class='msg_time'>Now</span></div></div>");
+                    // Clear the input field
+                    $("#text").val("");
+                },
+                error: function (error) {
+                    console.error('Error getting response from the chatbot', error);
+                }
+            });
+        });
+
+        // Ensure that pressing "Enter" in the input field submits the form
+        $("#text").keypress(function (event) {
+            if (event.which === 13) { // 13 is the key code for "Enter"
+                $("#messageArea").submit();
+            }
+        });
+    });
+</script>
+
+</body>
+
+</html>
